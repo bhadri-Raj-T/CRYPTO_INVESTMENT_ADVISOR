@@ -1,0 +1,38 @@
+{
+  "source_project": "E:\\crypto-rt-analytics",
+  "symbols": {
+    "BTCUSDT": {
+      "checkpoint": "runtime_assets\\models\\BTCUSDT\\best_model_v4.pt",
+      "checkpoint_sha256": "2b2efaccf744ee7398bc3385fa3e7202ace41f0970f1474e11d8b5ad67d603db",
+      "scaler": "runtime_assets\\models\\BTCUSDT\\scaler.joblib",
+      "scaler_sha256": "56352832efd28f87efa6dbb43ebd22cdb3a107fb2f2fc98109b4c925c0874874",
+      "bootstrap": "runtime_assets\\bootstrap\\BTCUSDT_1m.parquet",
+      "bootstrap_rows": 240
+    },
+    "ETHUSDT": {
+      "checkpoint": "runtime_assets\\models\\ETHUSDT\\best_model_v4.pt",
+      "checkpoint_sha256": "e82c44617ad65747ad0c39520a7404304a04ac6eeed4a9cba9cbc99f5f94e9f6",
+      "scaler": "runtime_assets\\models\\ETHUSDT\\scaler.joblib",
+      "scaler_sha256": "518949fff80d7b544412f926c038707856096ffd92d28d8226047c36622a0e4b",
+      "bootstrap": "runtime_assets\\bootstrap\\ETHUSDT_1m.parquet",
+      "bootstrap_rows": 240
+    },
+    "BNBUSDT": {
+      "checkpoint": "runtime_assets\\models\\BNBUSDT\\best_model_v4.pt",
+      "checkpoint_sha256": "f9620b9a267bf045f20e9dd64e6a4b84d4d05350a5f8b46330c80121180f9954",
+      "scaler": "runtime_assets\\models\\BNBUSDT\\scaler.joblib",
+      "scaler_sha256": "30c55855093f3bb039bb5f78b7bc281b9c3715f6c24fb19bd4b31d4be61b711d",
+      "bootstrap": "runtime_assets\\bootstrap\\BNBUSDT_1m.parquet",
+      "bootstrap_rows": 240
+    },
+    "SOLUSDT": {
+      "checkpoint": "runtime_assets\\models\\SOLUSDT\\best_model_v4.pt",
+      "checkpoint_sha256": "1adb433f5788ba8909026bdf5a9cfa0f27f6fcd03c085ca5c26d3012c36062a8",
+      "scaler": "runtime_assets\\models\\SOLUSDT\\scaler.joblib",
+      "scaler_sha256": "0f36c7834f4753bdc8fb3447f5c1d9df25e9a8efadf6305f137d942331abe5f7",
+      "bootstrap": "runtime_assets\\bootstrap\\SOLUSDT_1m.parquet",
+      "bootstrap_rows": 240
+    }
+  },
+  "bootstrap_rows": 240
+}

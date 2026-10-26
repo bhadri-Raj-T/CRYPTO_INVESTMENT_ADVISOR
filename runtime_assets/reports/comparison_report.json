@@ -1,0 +1,128 @@
+{
+  "gru_v4": {
+    "BTCUSDT": {
+      "mse": 5.0411130616268575e-06,
+      "mae": 0.001443742249549172,
+      "rmse": 0.0022452423169063195,
+      "r2": -0.002612070502181929,
+      "prediction_target_correlation": 0.01201458190028653,
+      "directional_accuracy": 0.5106194988607918,
+      "direction_accuracy": 0.5167734703567084,
+      "direction_auc": 0.5217678121273048,
+      "signal_threshold": 0.55,
+      "signal_coverage": 0.12424251788879867,
+      "signal_directional_accuracy": 0.5347322720694645
+    },
+    "ETHUSDT": {
+      "mse": 1.1571154701201935e-05,
+      "mae": 0.0021714215789534036,
+      "rmse": 0.0034016400017053442,
+      "r2": -0.0017506545962733266,
+      "prediction_target_correlation": 0.014986852605462012,
+      "directional_accuracy": 0.5168647755717813,
+      "direction_accuracy": 0.5243433750340639,
+      "direction_auc": 0.5334277960969775,
+      "signal_threshold": 0.55,
+      "signal_coverage": 0.1372331429502541,
+      "signal_directional_accuracy": 0.5527145430723878
+    },
+    "BNBUSDT": {
+      "mse": 7.844501104002443e-06,
+      "mae": 0.00170681827673145,
+      "rmse": 0.0028008036532399844,
+      "r2": -0.0017512752825501465,
+      "prediction_target_correlation": 0.0015052385976487253,
+      "directional_accuracy": 0.506494198420081,
+      "direction_accuracy": 0.5046812946926127,
+      "direction_auc": 0.5129374343681649,
+      "signal_threshold": 0.55,
+      "signal_coverage": 0.21722877721875514,
+      "signal_directional_accuracy": 0.5108844078537432
+    },
+    "SOLUSDT": {
+      "mse": 1.4759314944783009e-05,
+      "mae": 0.002444676253396395,
+      "rmse": 0.0038417853850499,
+      "r2": -0.001305248653067359,
+      "prediction_target_correlation": 0.022501095510051278,
+      "directional_accuracy": 0.5010219681263219,
+      "direction_accuracy": 0.5146426252853343,
+      "direction_auc": 0.5218701356747704,
+      "signal_threshold": 0.55,
+      "signal_coverage": 0.07061422797428327,
+      "signal_directional_accuracy": 0.5250748835967852
+    }
+  },
+  "xgboost": {
+    "BTCUSDT": {
+      "mse": 5.089231429359971e-06,
+      "mae": 0.0014481781030025952,
+      "rmse": 0.0022559324966319296,
+      "r2": 0.0008802260220178715,
+      "correlation": 0.0321615945964178,
+      "direction_accuracy": 0.5118605208522827
+    },
+    "ETHUSDT": {
+      "mse": 1.1534376968102895e-05,
+      "mae": 0.0021709494194942745,
+      "rmse": 0.0033962298167383924,
+      "r2": 0.00056396525052127,
+      "correlation": 0.03578408147212815,
+      "direction_accuracy": 0.4906904633448778
+    },
+    "BNBUSDT": {
+      "mse": 7.972687230791579e-06,
+      "mae": 0.001712114250549289,
+      "rmse": 0.0028235947355793782,
+      "r2": 0.0028880189685529523,
+      "correlation": 0.08277480117621373,
+      "direction_accuracy": 0.5028539100015706
+    },
+    "SOLUSDT": {
+      "mse": 1.3602053624863992e-05,
+      "mae": 0.002380427075745216,
+      "rmse": 0.0036880962060206607,
+      "r2": 0.0019930013233042665,
+      "correlation": 0.05054637135092839,
+      "direction_accuracy": 0.4889756188580669
+    }
+  },
+  "chronos2": {
+    "BTCUSDT": {
+      "mse": 3.4407790651999044e-06,
+      "mae": 0.0012628259618011055,
+      "rmse": 0.0018549337091119738,
+      "r2": -0.1345595114962952,
+      "correlation": -0.1435941401843791,
+      "direction_accuracy": 0.455
+    },
+    "ETHUSDT": {
+      "mse": 6.298381548870664e-06,
+      "mae": 0.0016094209302029755,
+      "rmse": 0.0025096576557113648,
+      "r2": -0.058396450263916044,
+      "correlation": -0.03564030584122234,
+      "direction_accuracy": 0.5
+    },
+    "BNBUSDT": {
+      "mse": 2.7209076083329493e-06,
+      "mae": 0.0011638891389235079,
+      "rmse": 0.0016495173864900453,
+      "r2": -0.07935506286161886,
+      "correlation": -0.048193237685596337,
+      "direction_accuracy": 0.465
+    },
+    "SOLUSDT": {
+      "mse": 9.52025726950821e-06,
+      "mae": 0.0021422023724363363,
+      "rmse": 0.0030854914145899367,
+      "r2": -0.06684843069031676,
+      "correlation": -0.13152782047875133,
+      "direction_accuracy": 0.5
+    }
+  },
+  "notes": [
+    "Negative or near-zero R2 can occur on noisy 15-minute returns; compare against baselines and direction/AUC/correlation too.",
+    "Do not select a production model only from test metrics; model choice should be made on validation data, with the test split retained for final reporting."
+  ]
+}

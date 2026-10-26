@@ -1,0 +1,126 @@
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+saved_models/*.json
+saved_models/*.pkl
+historical_data/raw/*
+!historical_data/raw/.gitkeep
+
+# ==========================================
+# Environments & Secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.env
+.venv/
+venv/
+ENV/
+env/
+
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ==========================================
+# Package Managers & Node.js
+# ==========================================
+node_modules/
+jspm_packages/
+.npm
+.eslintcache
+yarn-error.log
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# IntelliJ / PyCharm
+.idea/
+*.iws
+*.iml
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ==========================================
+# Compiled Code & Build Directories
+# ==========================================
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# Java / C++
+*.class
+*.jar
+*.war
+*.ear
+*.o
+*.obj
+*.out
+target/
+
+# ==========================================
+# Logs, Databases, and Diagnostics
+# ==========================================
+*.log
+*.sqlite
+*.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- added by cleanup_project.ps1 ---
+checkpoints/
+producer_log.txt
+training/data/raw_full/
+training/models/
+saved_models/*.pkl
+saved_models/*.json
+
+data
+

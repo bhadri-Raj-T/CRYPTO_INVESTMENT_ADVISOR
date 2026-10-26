@@ -1,0 +1,39 @@
+{
+  "days": 30,
+  "requested_mode": "auto",
+  "prepared_at_utc": "2026-10-18T00:47:45.220639+00:00",
+  "symbols": {
+    "BTCUSDT": {
+      "rows": 43200,
+      "file": "runtime_assets\\history\\BTCUSDT_1m.parquet",
+      "source": "binance_rest",
+      "fallback_reason": null,
+      "first_open_time": 1789692480000,
+      "last_open_time": 1792284420000
+    },
+    "ETHUSDT": {
+      "rows": 43200,
+      "file": "runtime_assets\\history\\ETHUSDT_1m.parquet",
+      "source": "binance_rest",
+      "fallback_reason": null,
+      "first_open_time": 1789692480000,
+      "last_open_time": 1792284420000
+    },
+    "BNBUSDT": {
+      "rows": 43200,
+      "file": "runtime_assets\\history\\BNBUSDT_1m.parquet",
+      "source": "binance_rest",
+      "fallback_reason": null,
+      "first_open_time": 1789692540000,
+      "last_open_time": 1792284480000
+    },
+    "SOLUSDT": {
+      "rows": 43200,
+      "file": "runtime_assets\\history\\SOLUSDT_1m.parquet",
+      "source": "binance_rest",
+      "fallback_reason": null,
+      "first_open_time": 1789692540000,
+      "last_open_time": 1792284480000
+    }
+  }
+}
